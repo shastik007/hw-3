@@ -1,6 +1,7 @@
 import React from 'react'
+import './App.css'
 import Inputs from './components/inputs/Input'
-import Input2 from './components/Input2'
+import Input2 from './components/inputs/Input2'
 import Input3 from './components/inputs/Input3'
 import Input4 from './components/inputs/Input4'
 
@@ -15,9 +16,9 @@ function App() {
 	return (
 		<div className='App'>
 			<Inputs onPush={Push} />
-			<Input2 onPush={Push} />
+			{/* <Input2 onPush={Push} />
 			<Input3 onPush={Push} />
-			<Input4 onPush={Push} />
+			<Input4 onPush={Push} /> */}
 			<ul>
 				{state.map((el, id) => {
 					return (
